@@ -46,6 +46,9 @@ public class EmployeeSalaryCalculator
 		/*
 		All new code must be added between the commented lines below.
 			YOUR CODE STARTS HERE
+
+
+
 			YOUR CODE ENDS HERE
 		Test cases execute automatically each time you commit code.
 		You must follow these rules:
@@ -59,19 +62,21 @@ public class EmployeeSalaryCalculator
 				if(HW <= standardWorkingHours)
 				{
 					//YOUR CODE STARTS HERE
-					//  grossSalary = HR * HW;
-					//  basicPay = HR * HW;
+
+					  grossSalary = HR * HW;
+					  basicPay = HR * HW;
 
 					//YOUR CODE ENDS HERE
 				}
 				else
 				{
 					//YOUR CODE STARTS HERE
-					// basicPay = HR * standardWorkingHours;
-					// overTimeRate = 2 * HR;
-					// overTime = HW - standardWorkingHours;
-					// overTimePay = overTimeRate * overTime;
-					// grossSalary = basicPay + overTimePay;
+
+					 basicPay = HR * standardWorkingHours;
+					 overTimeRate = 2 * HR;
+					 overTime = HW - standardWorkingHours;
+					 overTimePay = overTimeRate * overTime;
+					 grossSalary = basicPay + overTimePay;
 
 					//YOUR CODE ENDS HERE
 				}
